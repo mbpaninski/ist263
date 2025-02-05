@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Notes</title>
+    </head>
+
+    <body>
+        <h1>Tables</h1>
+
+        <table>  <!--everthing has to be inside the table tag, leave all other tags outside-->
+            <!--This is to make the header in the table-->
+           <caption>this is the caption</caption>  <!--how to make caption/title on the table-->
+            <tr>
+                
+                <th>Country</th>
+                <th>Population</th>
+                <th>% of World Population</th>
+            </tr>
+            <!--use td to do all other data within the table-->
+            <tr>
+                <td>China</td>
+                <td>1,403,830,640</td>
+                <td>18.0%</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>3456755</td>
+                <td>23%</td>
+             </tr>
+
+        </table>
+<hr>
+        <form  action="" method="post">
+           <label for="fname">First name:</label> <!-- label tag does have an ending tag, while input does not-->
+           <input type="text" id="fname" name="fname">
+           <br>
+           <label for="comments">Comments:</label> <!--text area sample-->
+           <textarea id="comments" name="comments" rows="4"></textarea>
+           <br>
+          <p>Please select your age: </p> <!--sample for radio buttons-->
+          <input type="radio" id="age1" name="age" value="30">
+          <label for="age1">0-30</label>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">31-60</label>
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">61-100</label>
+          <br>
+          <!--sample for checkboxes-->
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> I have a bike</label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> I have a car</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> I have a boat</label>
+          <br>
+          <!--sample for select box-->
+          <label for="cars">Please choose a car model:</label>
+          <br>
+          <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="volvo">Tesla</option>
+            <option value="volvo">Nissan</option>
+            <option value="volvo">Toyota</option>
+          </select>
+
+        
+
+
+
+           
+           
+           <br>
+           <!--this is how to make a submit button, value is what shows on the button-->
+           <input type="submit" value="Send Form">
+
+
+
+        </form>
+
+    </body>
+
+
+
+
+
+</html>
