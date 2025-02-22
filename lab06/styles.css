@@ -1,7 +1,8 @@
 body {font-family:Georgia, 'Times New Roman', Times, serif }
- h1, h2 {color:slateblue}
+
+h1, h2 {color:rgb(30, 28, 44)}
  
- .special {color:cadetblue}
- .evenrow {color:cadetblue}
+ .special {color:darkslateblue}
+ .evenrow {background-color:lightsteelblue}
  h1 {font-size: 2em}
- h2 {font-size: 1em}
+ h2 {font-size: 1.5em}
