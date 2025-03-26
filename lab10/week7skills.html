@@ -12,11 +12,11 @@
         table, th, td {border: 1px solid black;}
          .special {text-align: center;}
          /*.about {float:left; clear:both;}*/
-         .skills {display:flex;justify-content:space-around; flex-grow: 1; text-align: center;}
-         .oskills {background-color: #cca784; border-radius: 1em;  padding:40px; width:300px;}
-         .flexbox2 {display:flex; float:right; padding:40px;}
-         .flexbox1 {display:flex; flex-grow: 1;justify-content:space-between; width: 100%; margin: 5%;}
-         .parent {display:flex; justify-content: space-between;}
+         .skills {display:flex;justify-content:space-around; flex-grow: 1; text-align: center; justify-content:space-between; flex:3; margin: 10%;}
+         .oskills {background-color: #cca784; border-radius: 1em;  padding:40px; width:300px; flex:1;}
+         /*.flexbox2 {display:flex; float:right; padding:40px; }
+         .flexbox1 {display:flex; flex-grow: 1; width: 100%; margin: 5%;}*/
+         .parent {display:flex; justify-content: space-between; flex-wrap: wrap;}
          .about {display:flex; align-items:flex-start;}
     </style>
     <script src="https://kit.fontawesome.com/e5308d908a.js" crossorigin="anonymous"></script>
@@ -35,39 +35,40 @@
            
 <div class="parent">
             
-      <div class="flexbox1">
+      
         <div class="skills">
-        <div><i class="fa-solid fa-network-wired fa-3x"></i><br>
-        <strong>Netsuite Software</strong></div>
-        
-        <div><i class="fa-solid fa-database fa-3x"></i><br>
-       <strong>Epicor Software</strong></div>
-        
-       <div><i class="fa-solid fa-server fa-3x"></i><br>
-        <strong>Python</strong></div>
-        
-        <div><i class="fa-solid fa-code fa-3x"></i><br>
-        <strong>HTML</strong></div>
-       
-        <div><i class="fa-brands fa-css fa-3x"></i><br>
-        <strong>CSS</strong></div>
-      </div>
-      </div>
-      <div class="flexbox2">
-      <aside class="oskills">
-         <h2><strong>Other Skills</strong></h2>
-      <ul>
-         <li>Microsoft Project</li> 
-         <li>Microsoft Excel</li>  
-         <li>Microsoft Word</li>
-         <li>Oracle Software</li>
-         <li>Google Workspace</li>
-         <li>Windows 10</li>
+            <div><i class="fa-solid fa-network-wired fa-3x"></i><br>
+            <strong>Netsuite Software</strong></div>
+            
+            <div><i class="fa-solid fa-database fa-3x"></i><br>
+            <strong>Epicor Software</strong></div>
+            
+            <div><i class="fa-solid fa-server fa-3x"></i><br>
+            <strong>Python</strong></div>
+            
+            <div><i class="fa-solid fa-code fa-3x"></i><br>
+            <strong>HTML</strong></div>
+            
+            <div><i class="fa-brands fa-css fa-3x"></i><br>
+            <strong>CSS</strong></div>
+         </div>
+     
+
+      
+         <aside class="oskills">
+            <h2><strong>Other Skills</strong></h2>
+            <ul>
+               <li>Microsoft Project</li> 
+               <li>Microsoft Excel</li>  
+               <li>Microsoft Word</li>
+               <li>Oracle Software</li>
+               <li>Google Workspace</li>
+               <li>Windows 10</li>
 
 
-      </ul>
-      </aside>
-      </div>
+            </ul>
+         </aside>
+    
 </div>
 
 
