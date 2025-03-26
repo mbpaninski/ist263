@@ -12,6 +12,13 @@ nav a:hover {background-color:#cca784;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
 
+
 .evenrow {background-color: #be9b7b;}
 a:visited {color: #591e35;}
 p a:hover {color:#b24871;}
+
+
+@media only screen and (max-width: 800px) {
+    nav a {width: 100%; display:block; margin: 10px;}
+    span {display:none;}
+    }
