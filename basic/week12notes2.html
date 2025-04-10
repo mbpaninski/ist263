@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Rollovers and Picker</title>
+      <script>
+        function change() {
+            document.getElementById("arrow").setAttribute("src", "https://peopel-su.github.io/ist263/images/arrow_over.png")
+        }
+        function changeBack() {
+            document.getElementById("arrow").setAttribute("src", "https://peopel-su.github.io/ist263/images/arrow.png")
+        }
+      function changeColor() {
+        document.getElementById("thepage").style.backgroundColor = document.getElementById("picker").value;
+      }
+      
+      
+      </script>
+       
+    
+
+      </style>
+    
+    </head>
+
+    <body id="thepage">
+       <h1>Image Rollovers</h1>
+       <img id="arrow" onmouseover="change();" onmouseout="changeBack();" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="arrow icon">
+        <form>
+            <input onchange="changeColor();" id="picker" type="color">
+        </form>
+    </body>
+
+
+
+
+
+</html>
