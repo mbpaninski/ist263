@@ -6,8 +6,8 @@ body, p {color:#59201e ;
 h1, h2 {color:#582826; font-size: 2em;}
  h3 {color:#582826; font-size: 1em;}
 nav {background-color:#be9b7b; font-size: 1.25em;}
-nav a:link {color:#fff4e6;}
-nav a:visited {color:#fff4e6}
+nav a:link {color:#582826;}
+nav a:visited {color:#582826}
 nav a:hover {background-color:#cca784;}   
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
