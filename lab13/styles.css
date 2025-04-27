@@ -1,5 +1,4 @@
 body, p {color:#59201e ;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #f6dab6;
     font-size: 1.1em;}
     a:link {color: #582826}
@@ -12,7 +11,11 @@ nav a:hover {background-color:#cca784;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
 
-
+body{
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 .evenrow {background-color: #be9b7b;}
 a:visited {color: #591e35;}
 p a:hover {color:#b24871;}
