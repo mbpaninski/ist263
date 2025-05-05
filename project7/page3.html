@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+        <title>Tips and Tricks</title>
+        <link rel="stylesheet" href="../project/projectstyles.css">
+       <style>
+.ironandtips{display:flex;
+            align-items:center;
+            justify-content:space-between; 
+
+}
+.tips{flex:1; font-size: 1.25em; padding: 50px; background-color:#247091; margin: 20px; border-radius: 1em;
+
+}
+.iron{display:block; flex:1; padding:20px; margin:20px;  }
+.container2{display:flex;
+            align-items:center;
+            justify-content:space-between;
+
+}
+.guide{flex:2; font-size: 1.25em; padding: 50px; background-color:#247091; margin: 20px; border-radius: 1em;
+
+}
+.supplies{display:block; flex:1; padding:20px; margin:20px;
+
+}
+.container3{display:flex;
+            align-items:center;
+            justify-content:space-between;
+            flex-wrap: wrap;
+
+}
+.parts{flex:2; font-size: 1.25em; padding: 50px; background-color:#247091; margin: 20px; border-radius: 1em;
+
+}
+.machine{display:block; flex:1; padding:20px; margin:20px;
+
+}
+h1{font-size:3.5em; color:white;padding:50px;text-align:center; text-decoration: underline;}
+h2{font-size:2em;}
+.machine img {
+  width: 100%;
+  max-width: 1000px; 
+  height: auto;
+}
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background-color: #054c6a;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background-color: #247091;
+  color: white;
+  padding: 10px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.faq-question:hover {
+  background-color: #005b80;
+}
+
+
+        
+@media screen and (max-width: 800px) {
+  .ironandtips, .container2, .container3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+    .tips, .guide, .parts {
+    width: 90%;
+    padding: 20px;
+    margin: 15px auto;
+    font-size: 1.1em;
+  }
+    .iron img, .supplies img, .machine img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+    h1 {
+    font-size: 2em;
+    padding: 30px 20px;
+  }
+    h2 {
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
+     body {
+    padding: 0 10px;
+  }
+  .machine img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+ 
+}
+ @media (min-width: 768px){
+  .parts, .machine{flex: 1; 
+  } 
+
+
+  .machine {
+    max-width: 100%; 
+  }
+}
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const questions = document.querySelectorAll('.faq-question');
+  
+      questions.forEach((button) => {
+        button.addEventListener('click', () => {
+          const answer = button.nextElementSibling;
+          if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+          } else {
+            answer.style.display = 'block';
+          }
+        });
+      });
+    });
+  </script>
+  
+    
+
+    </head>
+
+    <body>
+        <header>
+        <a href="#main" class="skip">Skip to main content</a>
+         <main id="main">
+        <nav>
+            <a href="index.html"> Homepage <span>|</span> </a>
+            <a href="page2.html"> Projects <span>|</span> </a>
+            <a href="page3.html"> Tips and Tricks</a>
+         </nav>
+      
+         
+         <h1>Tips and Tricks</h1>
+        <h2>Every beginner sewer faces challenges, but don’t worry- these tips and tricks will make your projects
+        easier and more enjoyable!</h2> 
+        </header>
+        
+        <hr>
+    <div class="ironandtips">
+        <article class="tips"><ol>
+        <li>Press your Seams- Before you start sewing, make sure to iron your fabric. This will help create
+            cleaner seams and make the sewing process smoother</li><br>
+        <li>Don’t Rush- Its easy to want to jump in on a project and rush through it. Taking your time will
+            help you make fewer mistakes (mistakes will happen no matter what, Its normal!). Slowing
+            down and focusing on each step of the pattern will help you.</li><br>
+        <li>Start with simple projects- Don’t dive into complicated projects too soon. It takes time to build
+            up the skills to create something complicated. The simple projects (like the ones linked on this
+            site) will teach important skills without being too overwhelming</li><br>
+        <li>Avoid Tension Troubles- A sewing machine has a feature where the tension of the stitches and
+            thread can be adjusted. Mess around with the tension at first to see how it works for each
+            project. If your stitches are too loose or too tight, It can disrupt the stability of the project.</li><br>
+        <li>Keep your machine clean- Machines get dusty! Make sure that the inside of the machine and the
+            compartment that holds the bottom thread are clean. These building up over time can cause
+            problems for the machine if not dealt with properly.</li><br>
+
+
+    </ol></article>
+    <div class="iron"><img src="../project/projectmedia/iron.jpg" alt="Iron" width="600"></div>
+    </div>
+    <hr>
+    
+    
+    <div class="container2">
+    
+       <div class="supplies"><img src="../project/projectmedia/supplies.jpg" alt="Sewing Supplies" width="600"></div>
+        <div class="guide"><p><h2>Starter Guide: Getting your first project started
+        Ready to start your first project? <br>Follow this guide to set yourself up for success</h2>
+     <ul>
+        <li><strong>Gather Your Materials:</strong> Choose a beginner project (like a pillow cover or tote bag) and gather all
+            the materials you'll need.</li>
+        <li><strong>Prepare Your Fabric:</strong> Wash and iron your fabric to ensure it's clean and wrinkle-free before you
+            start sewing</li>
+        <li><strong>Read Through the Instructions:</strong> Before starting, read through the step-by-step guide to make
+            sure you understand each step.</li>
+        <li><strong>Set Up Your Sewing Machine:</strong> If you’re using a sewing machine, set it up with the correct needle
+            and thread. If you’re hand-sewing, gather your needles and thread.</li>
+        <li><strong>Sew with Confidence:</strong> Take your time, enjoy the process, and remember that mistakes are part
+            of the learning journey!</li>
+ </ul> </div>  
+ 
+
+ 
+ </div>
+ <div class="container3">
+ 
+    <div class="parts">
+    <h2>Parts of a Sewing Machine</h2>
+<ul>
+    <li><strong>Thread Guide-</strong> The thread guide is used to direct and control the thread as it goes from the spool to the needle.</li><br>
+    <li><strong>Needle-</strong> The needle is the part that pierces the fabric, carrying the thread to create stitches. There are different size needles for different projects.</li><br>
+    <li><strong>Presser Foot-</strong> The presser foot holds the fabric in place, ensuring tension, even stitching, and keeps the fabric from shifting.</li><br>
+    <li><strong>Bobbin Winder-</strong> The bobbin winder is used to wind thread onto the bobbin evenly before sewing.</li><br>
+    <li><strong>Handwheel-</strong> The handwheel is used to manually move the needle up and down when needed, allowing for precise stitching.</li><br>
+    <li><strong>Reverse Lever-</strong> The reverse lever is used to sew in reverse, which is used for reinforcing stitches and preventing the seam from unraveling.</li><br>
+
+</ul>
+</div>
+
+
+<div class="machine"><img src="../project/projectmedia/sewinganatomy.png" alt="Sewing Machine Anatomy"></div>
+ 
+</div>
+<footer>
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-section">
+      <div class="faq">
+        <button class="faq-question">What kind of fabric is best for beginners?</button>
+        <div class="faq-answer">
+          <p>Cotton fabric is best—it's easy to cut, sew, and doesn't slip around like silk or stretchy materials.</p>
+        </div>
+      </div>
+      <div class="faq">
+        <button class="faq-question">Do I need a special needle for sewing?</button>
+        <div class="faq-answer">
+          <p>Start with a universal needle. For thicker fabrics like denim, use a heavy-duty needle for best results.</p>
+        </div>
+      </div>
+      <div class="faq">
+        <button class="faq-question">How do I thread a sewing machine?</button>
+        <div class="faq-answer">
+          <p>Each machine is a little different, but most follow a top-threading path and a bobbin underneath. Check your manual for your model's guide.</p>
+        </div>
+      </div>
+    </div>
+    
+</footer>
+
+</body>
+
+
+
+
+
+</html>
